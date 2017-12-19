@@ -11,3 +11,4 @@ print(mh.find(sql, '张三'))
 # mh = MysqlHelper('10.100.1.142', 'test', '123456', 'testDB', 'utf8')
 sql = "insert into user(name,password) values(%s,%s)"
 mh.cud(sql, ('李四', '123456'))
+mh.cud(sql, ('赵六', '123456'))
